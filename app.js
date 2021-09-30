@@ -25,7 +25,7 @@ function countdown() {
     clearInterval(i);
     document.querySelector(
       ".countdown"
-    ).innerHTML = `<h1>Countdown had expired!</h1>`;
+    ).innerHTML = `<h1>You must be late! Good luck for next time.</h1>`;
   } else {
     //Calculating remaining days, hrs,mins ,secs
     let daysLeft = Math.floor(remainingTime / oneDay);
